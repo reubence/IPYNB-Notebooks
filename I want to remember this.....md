@@ -1,0 +1,88 @@
+- # Public Speaking
+    - ### Useful Communication Techniques
+        - **Mange your anxiety by doing something that calms you down **
+            - You could count backwards from 17.
+            - You could try to talk by spelling out words by each letter instead of speaking them as a whole
+            - You could also try to recite tongue twisters
+            - **All these things force your mind to latch on to the present moment instead of worrying about the future**
+        - **See the interactions as an opportunity and not a challenge**
+        - **Take the time to listen to your audience**
+            - Use simple conversational language.
+            - Instead of saying __"Thus it would make sense to to consider investing in shares"__. You could say __"This is why you should consider investing in shares!"__
+
+Here the **"you"** here is important as it engages the audience to listen.
+            - Another thing to remember is always start by asking a few questions, this also helps in engaging the audience to listen.
+            - 
+        - **Use Structure to set up expectations for the audience**
+            - It is important to present a structure to your audience so that they know **what **to expect.
+            - Take for example a tour guide who starts off by giving you a brief about the places you will be visiting before the tour starts. This helps set up expectations.
+            - A few structure techniques are as follow:-
+                - **Problem -> Solution -> Benefit**
+                - **What? -> So what? -> Now what?** / **Who ? Why? What? **
+                    - What is it ?   / Who they are?
+                    - Why is it imp?     / Why are they imp?
+                    - What are the next step  / What do they do
+        - **Links to refer to**
+            - [Youtube Video of Lecture](https://www.youtube.com/watch?v=HAnw168huqA)
+            - [No Freaking Speaking](https://www.nofreakingspeaking.com/)
+- # Data Science
+    - ### Voice Analytics
+        - ### Some domains where we can use Speech Analytics
+            - **Information Governance**
+            - **Healthcare and Education**
+            - **Product Imporvement**
+                - Can you analyse calls on the go and provide the caller with the live suggestions of things he can/could've said.
+                - Say for amazon, we can extract info about what the people are talking about. What are their complains. 
+                - Sentiment analysis - Calls with Jio, Vodafone, Airtel and all customers are usually angry with their service provider on the call.
+
+Can we find out what questions i should ask the customer based on his tone, verbatim, etc.
+
+Eg: Person calls Vodafone and says "Your service is shit, Airtel is better".
+Here we can track what people are saying about the brand, How is the overall customer engagement and overall brand perception,
+            - **Lead Scoring**
+                - Building a ML model and training it to assign a lead score to each new call based on previous data from past leads with similar behaviour within the calls
+            - **Agent Analysis in Telecom & Insurance**
+                - Training an algorithm to understand what the agent says, and tell us whether they require more training on certain subjects.
+        - ### How does Voice Analytics help in Contact Centres?
+            - **Deliver personalized customer experiences**
+                - We require a voice agent that can analyse the call on-the-go and tell the agent what he must say next using maybe the past history of the customer thgrough which we can know what the customer likes.
+            - **Competitive Intelligence**
+                - A backend solution that can analyse the competitor and leverage the knowledge to suggest better plans to customers on the go
+            - **24/7 Customer Service AI Bot**
+                - A bot to answer most frequently answered questions
+            - **Solve customer problems quickly**
+                - With an AI aid on the screen, the agent can take decisions quickly and solve the customer's problems more quickly.
+                - Also we can use Speech Analytics to monitor calls and understand how many problems have actually been solved.
+            - **Personalize training for agents**
+                - The Bot ca
+            - **Replace IVR**
+            - **Review calls in depth**
+        - ### Solving a Data Science Problem in a Business Enviorment
+            - **Understand the business**
+                - What is the thing that the Client wants? 
+                - What is the thing that the Customer wants? 
+                - What is the Business outcome that they want?
+                - **__Ask the right question__**
+                - **__Finalise the problem statement__**
+            - **Get your data**
+                - Finalise the features or dataset required by discussing it with Client.
+                - Mention the issues / risks to the Client.
+            - **Exploring and Cleaning the Data**
+                - Understand what each and every column means
+            - **Define KPIs and Right Algorithms**
+                - Define the right algorithms or their category of implementation by carefully considering the features in the dataset and the problem statement and how it would impact the objectives.
+                - Use explainable algorithms. Maximize the use of algorithms that are more explainable. The trade-off here is that the model will either be to flexible or interpretable. 
+            - **Showcase End Results**
+                - Provide client with easy to grasp and presentable results using right visualizations.
+        - ### Voice Analytics Use Case
+            - **A Large UK based Financial Services firm providing expense management solution was required to assess data that comes from Omi-Channel distribution - Calls, Emails, Chat. It was impossible to manually understand customer needs as the number of calls per day range from 10k to 50k**
+                - Come up with a model that can come up with questions, sentiment analysis, products on a live-call. Basically recommendations. An insight that we can.
+Real-time notification to the Agents.
+                - Granular level issue understand is very important in Voice Analytics use case.
+                - The solution should always be in the form of KPIs. How will the customer benefit or How will the company benefit if they do this. 
+                - Diarize the speaker:  Meaning who is the customer and who is the agent.
+                - The basic problem statement is that understand the customer problems and act upon it.
+        - ### Images
+            - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Freubence%2F1W5Q2YZrb0.png?alt=media&token=908e9356-2638-473f-b86c-108bf369785b)
+        - ### Python
+            - ```import librosa```
